@@ -10,9 +10,9 @@ exports.components = {
   "component---src-templates-post-js": preferDefault(require("C:\\Users\\webdev2\\Documents\\travlplacs\\src\\templates\\post.js")),
   "component---cache-dev-404-page-js": preferDefault(require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("C:\\Users\\webdev2\\Documents\\travlplacs\\src\\pages\\404.js")),
+  "component---src-pages-about-js": preferDefault(require("C:\\Users\\webdev2\\Documents\\travlplacs\\src\\pages\\about.js")),
   "component---src-pages-index-js": preferDefault(require("C:\\Users\\webdev2\\Documents\\travlplacs\\src\\pages\\index.js")),
-  "component---src-pages-page-2-js": preferDefault(require("C:\\Users\\webdev2\\Documents\\travlplacs\\src\\pages\\page-2.js")),
-  "component---src-pages-page-3-js": preferDefault(require("C:\\Users\\webdev2\\Documents\\travlplacs\\src\\pages\\page-3.js"))
+  "component---src-pages-service-js": preferDefault(require("C:\\Users\\webdev2\\Documents\\travlplacs\\src\\pages\\service.js"))
 }
 
 exports.json = {
@@ -21,8 +21,8 @@ exports.json = {
   "2nd-post.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\2nd-post.json"),
   "dev-404-page.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\dev-404-page.json"),
   "404.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\404.json"),
+  "about.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\about.json"),
   "index.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\index.json"),
-  "page-2.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\page-2.json"),
-  "page-3.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\page-3.json"),
+  "service.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\service.json"),
   "404-html.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\404-html.json")
 }

@@ -16,5 +16,5 @@ module.exports = {
   ],
 },
 {
-  pathPrefix: "/travlplacs"
+  pathPrefix: "/testgats"
 }
