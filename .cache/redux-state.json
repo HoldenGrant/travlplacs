@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ded1fa30b320b1cd720685284891a59a",
+        "contentDigest": "9797f3dd100211f8b1c3bb6b45cae678",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -362,6 +362,67 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "C:/Users/webdev2/Documents/travlplacs/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/webdev2/Documents/travlplacs/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "72b9105bc8292dad17ae6694a825d212",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-source-filesystem": {
       "resolve": "C:/Users/webdev2/Documents/travlplacs/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
@@ -369,8 +430,8 @@
       "version": "1.5.39",
       "pluginOptions": {
         "plugins": [],
-        "path": "C:\\Users\\webdev2\\Documents\\travlplacs/src/pages",
-        "name": "pages"
+        "path": "C:\\Users\\webdev2\\Documents\\travlplacs/src/posts",
+        "name": "posts"
       },
       "nodeAPIs": [
         "sourceNodes",
@@ -460,7 +521,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e88d8678c5bf260488330afb42e0268e",
+        "contentDigest": "1f1fa62a5b10a9cf00d760bbaa61e915",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -607,7 +668,7 @@
       "resolve": "C:/Users/webdev2/Documents/travlplacs",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "baeaeb1b01b90e8fffb8babd4fc5d3d4",
+      "version": "566aefb55b1e7b93de5a9aa669ed2d44",
       "pluginOptions": {
         "plugins": []
       },
@@ -628,12 +689,20 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "ajv-keywords",
+            "version": "^3.2.0"
+          },
+          {
             "name": "gatsby",
             "version": "^1.9.273"
           },
           {
             "name": "gatsby-link",
             "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^1.0.24"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -660,6 +729,10 @@
           {
             "name": "prettier",
             "version": "^1.12.0"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.4.0-beta6"
           }
         ],
         "peerDependencies": [],
@@ -669,7 +742,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4f9de9742c9c0a6f0f697500f5c03675",
+        "contentDigest": "c395b1a7e738435764894d7a101ab6c0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -762,43 +835,41 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2018-07-10T21:45:41.235Z",
+      "buildTime": "2018-07-11T19:12:04.509Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "52397478b45c5b2c147ed708ed402ca6",
+        "contentDigest": "f28f102be318f7d69f615969751d2428",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "C:/Users/webdev2/Documents/travlplacs/src/pages absPath of file": {
-      "id": "C:/Users/webdev2/Documents/travlplacs/src/pages absPath of file",
+    "C:/Users/webdev2/Documents/travlplacs/src/posts absPath of file": {
+      "id": "C:/Users/webdev2/Documents/travlplacs/src/posts absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9dacbd7f5cf1ed655b541e6b92e1e6d2",
+        "contentDigest": "31cf7289df182f1470ffff21c9fb0782",
         "type": "Directory",
-        "description": "Directory \"src\\pages\"",
+        "description": "Directory \"src\\posts\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "pages",
-      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/pages",
+      "sourceInstanceName": "posts",
+      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/posts",
       "relativePath": "",
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-07-10T21:04:21.838Z",
-      "accessTime": "2018-07-10T21:45:44.568Z",
-      "changeTime": "2018-07-10T21:04:21.838Z",
-      "birthTime": "2018-07-10T14:19:32.037Z",
+      "modifiedTime": "2018-07-11T18:50:47.728Z",
+      "accessTime": "2018-07-11T19:12:08.075Z",
+      "changeTime": "2018-07-11T18:50:47.728Z",
+      "birthTime": "2018-07-11T18:47:51.292Z",
       "root": "C:/",
       "dir": "C:/Users/webdev2/Documents/travlplacs/src",
-      "base": "pages",
+      "base": "posts",
       "ext": "",
-      "name": "pages",
+      "name": "posts",
       "relativeDirectory": "..",
       "dev": 1927141179,
       "mode": 16822,
@@ -806,38 +877,38 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 562949953941857,
-      "atimeMs": 1531259144568.1045,
-      "mtimeMs": 1531256661838.3074,
-      "ctimeMs": 1531256661838.3074,
-      "birthtimeMs": 1531232372036.6956,
-      "atime": "2018-07-10T21:45:44.568Z",
-      "mtime": "2018-07-10T21:04:21.838Z",
-      "ctime": "2018-07-10T21:04:21.838Z",
-      "birthtime": "2018-07-10T14:19:32.037Z"
+      "ino": 2533274790957308,
+      "atimeMs": 1531336328075.0715,
+      "mtimeMs": 1531335047728.1226,
+      "ctimeMs": 1531335047728.1226,
+      "birthtimeMs": 1531334871292.084,
+      "atime": "2018-07-11T19:12:08.075Z",
+      "mtime": "2018-07-11T18:50:47.728Z",
+      "ctime": "2018-07-11T18:50:47.728Z",
+      "birthtime": "2018-07-11T18:47:51.292Z"
     },
-    "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018 absPath of file": {
-      "id": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018 absPath of file",
+    "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018 absPath of file": {
+      "id": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018 absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f516f26c8d7c27f79f39500c480175b6",
+        "contentDigest": "f9aa9223c63c128ddca83af74d19ed1c",
         "type": "Directory",
-        "description": "Directory \"src\\pages\\07-10-2018\"",
+        "description": "Directory \"src\\posts\\07-10-2018\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "pages",
-      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018",
+      "sourceInstanceName": "posts",
+      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018",
       "relativePath": "07-10-2018",
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-07-10T16:41:10.125Z",
-      "accessTime": "2018-07-10T21:45:44.564Z",
-      "changeTime": "2018-07-10T17:54:09.775Z",
-      "birthTime": "2018-07-10T16:40:49.277Z",
+      "modifiedTime": "2018-07-11T18:48:06.942Z",
+      "accessTime": "2018-07-11T19:12:08.069Z",
+      "changeTime": "2018-07-11T18:48:06.942Z",
+      "birthTime": "2018-07-11T18:48:06.936Z",
       "root": "C:/",
-      "dir": "C:/Users/webdev2/Documents/travlplacs/src/pages",
+      "dir": "C:/Users/webdev2/Documents/travlplacs/src/posts",
       "base": "07-10-2018",
       "ext": "",
       "name": "07-10-2018",
@@ -848,38 +919,38 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 4785074604325107,
-      "atimeMs": 1531259144564.0933,
-      "mtimeMs": 1531240870124.6382,
-      "ctimeMs": 1531245249775.1199,
-      "birthtimeMs": 1531240849276.906,
-      "atime": "2018-07-10T21:45:44.564Z",
-      "mtime": "2018-07-10T16:41:10.125Z",
-      "ctime": "2018-07-10T17:54:09.775Z",
-      "birthtime": "2018-07-10T16:40:49.277Z"
+      "ino": 3940649674510491,
+      "atimeMs": 1531336328069.0552,
+      "mtimeMs": 1531334886941.594,
+      "ctimeMs": 1531334886941.594,
+      "birthtimeMs": 1531334886936.0798,
+      "atime": "2018-07-11T19:12:08.069Z",
+      "mtime": "2018-07-11T18:48:06.942Z",
+      "ctime": "2018-07-11T18:48:06.942Z",
+      "birthtime": "2018-07-11T18:48:06.936Z"
     },
-    "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019 absPath of file": {
-      "id": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019 absPath of file",
+    "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019 absPath of file": {
+      "id": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019 absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bd4f3a7a836636b6f7cbabbc163b8b59",
+        "contentDigest": "7302a3ddc01274dde84245e1cfec3d1c",
         "type": "Directory",
-        "description": "Directory \"src\\pages\\07-11-2019\"",
+        "description": "Directory \"src\\posts\\07-11-2019\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "pages",
-      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019",
+      "sourceInstanceName": "posts",
+      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019",
       "relativePath": "07-11-2019",
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2018-07-10T17:53:58.636Z",
-      "accessTime": "2018-07-10T21:45:44.564Z",
-      "changeTime": "2018-07-10T17:53:58.636Z",
-      "birthTime": "2018-07-10T17:53:58.625Z",
+      "modifiedTime": "2018-07-11T18:48:14.035Z",
+      "accessTime": "2018-07-11T19:12:08.070Z",
+      "changeTime": "2018-07-11T18:48:14.035Z",
+      "birthTime": "2018-07-11T18:48:14.034Z",
       "root": "C:/",
-      "dir": "C:/Users/webdev2/Documents/travlplacs/src/pages",
+      "dir": "C:/Users/webdev2/Documents/travlplacs/src/posts",
       "base": "07-11-2019",
       "ext": "",
       "name": "07-11-2019",
@@ -890,213 +961,41 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 2251799814274679,
-      "atimeMs": 1531259144564.0933,
-      "mtimeMs": 1531245238636.0576,
-      "ctimeMs": 1531245238636.0576,
-      "birthtimeMs": 1531245238625.0288,
-      "atime": "2018-07-10T21:45:44.564Z",
-      "mtime": "2018-07-10T17:53:58.636Z",
-      "ctime": "2018-07-10T17:53:58.636Z",
-      "birthtime": "2018-07-10T17:53:58.625Z"
+      "ino": 1970324837536016,
+      "atimeMs": 1531336328069.5564,
+      "mtimeMs": 1531334894035.1345,
+      "ctimeMs": 1531334894035.1345,
+      "birthtimeMs": 1531334894033.6306,
+      "atime": "2018-07-11T19:12:08.070Z",
+      "mtime": "2018-07-11T18:48:14.035Z",
+      "ctime": "2018-07-11T18:48:14.035Z",
+      "birthtime": "2018-07-11T18:48:14.034Z"
     },
-    "C:/Users/webdev2/Documents/travlplacs/src/pages/404.js absPath of file": {
-      "id": "C:/Users/webdev2/Documents/travlplacs/src/pages/404.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "8857de246387175d85e2e874b3d29120",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src\\pages\\404.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/pages/404.js",
-      "relativePath": "404.js",
-      "extension": "js",
-      "size": 208,
-      "prettySize": "208 B",
-      "modifiedTime": "2018-07-10T14:19:32.037Z",
-      "accessTime": "2018-07-10T21:44:58.873Z",
-      "changeTime": "2018-07-10T14:19:32.037Z",
-      "birthTime": "2018-07-10T14:19:32.037Z",
-      "root": "C:/",
-      "dir": "C:/Users/webdev2/Documents/travlplacs/src/pages",
-      "base": "404.js",
-      "ext": ".js",
-      "name": "404",
-      "relativeDirectory": "",
-      "dev": 1927141179,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 562949953941862,
-      "atimeMs": 1531259098872.7004,
-      "mtimeMs": 1531232372036.6956,
-      "ctimeMs": 1531232372036.6956,
-      "birthtimeMs": 1531232372036.6956,
-      "atime": "2018-07-10T21:44:58.873Z",
-      "mtime": "2018-07-10T14:19:32.037Z",
-      "ctime": "2018-07-10T14:19:32.037Z",
-      "birthtime": "2018-07-10T14:19:32.037Z"
-    },
-    "C:/Users/webdev2/Documents/travlplacs/src/pages/about.js absPath of file": {
-      "id": "C:/Users/webdev2/Documents/travlplacs/src/pages/about.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "2ae2eeaac2c0371423b8e8b5a4b190b7",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src\\pages\\about.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/pages/about.js",
-      "relativePath": "about.js",
-      "extension": "js",
-      "size": 351,
-      "prettySize": "351 B",
-      "modifiedTime": "2018-07-10T21:35:31.400Z",
-      "accessTime": "2018-07-10T21:44:58.873Z",
-      "changeTime": "2018-07-10T21:35:31.400Z",
-      "birthTime": "2018-07-10T14:19:32.037Z",
-      "root": "C:/",
-      "dir": "C:/Users/webdev2/Documents/travlplacs/src/pages",
-      "base": "about.js",
-      "ext": ".js",
-      "name": "about",
-      "relativeDirectory": "",
-      "dev": 1927141179,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 562949953941876,
-      "atimeMs": 1531259098872.7004,
-      "mtimeMs": 1531258531399.9248,
-      "ctimeMs": 1531258531399.9248,
-      "birthtimeMs": 1531232372036.6956,
-      "atime": "2018-07-10T21:44:58.873Z",
-      "mtime": "2018-07-10T21:35:31.400Z",
-      "ctime": "2018-07-10T21:35:31.400Z",
-      "birthtime": "2018-07-10T14:19:32.037Z"
-    },
-    "C:/Users/webdev2/Documents/travlplacs/src/pages/index.js absPath of file": {
-      "id": "C:/Users/webdev2/Documents/travlplacs/src/pages/index.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "c22bb7e5bdcfefc6421083e24d157b79",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src\\pages\\index.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/pages/index.js",
-      "relativePath": "index.js",
-      "extension": "js",
-      "size": 925,
-      "prettySize": "925 B",
-      "modifiedTime": "2018-07-10T21:35:51.320Z",
-      "accessTime": "2018-07-10T21:44:58.873Z",
-      "changeTime": "2018-07-10T21:35:51.320Z",
-      "birthTime": "2018-07-10T14:19:32.037Z",
-      "root": "C:/",
-      "dir": "C:/Users/webdev2/Documents/travlplacs/src/pages",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "",
-      "dev": 1927141179,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 562949953941869,
-      "atimeMs": 1531259098872.7004,
-      "mtimeMs": 1531258551320.3137,
-      "ctimeMs": 1531258551320.3137,
-      "birthtimeMs": 1531232372036.6956,
-      "atime": "2018-07-10T21:44:58.873Z",
-      "mtime": "2018-07-10T21:35:51.320Z",
-      "ctime": "2018-07-10T21:35:51.320Z",
-      "birthtime": "2018-07-10T14:19:32.037Z"
-    },
-    "C:/Users/webdev2/Documents/travlplacs/src/pages/service.js absPath of file": {
-      "id": "C:/Users/webdev2/Documents/travlplacs/src/pages/service.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "ef8d255a11aaf414e5986dda277fb882",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src\\pages\\service.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/pages/service.js",
-      "relativePath": "service.js",
-      "extension": "js",
-      "size": 298,
-      "prettySize": "298 B",
-      "modifiedTime": "2018-07-10T21:36:00.331Z",
-      "accessTime": "2018-07-10T21:44:58.873Z",
-      "changeTime": "2018-07-10T21:36:00.331Z",
-      "birthTime": "2018-07-10T14:56:17.267Z",
-      "root": "C:/",
-      "dir": "C:/Users/webdev2/Documents/travlplacs/src/pages",
-      "base": "service.js",
-      "ext": ".js",
-      "name": "service",
-      "relativeDirectory": "",
-      "dev": 1927141179,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 0,
-      "gid": 0,
-      "rdev": 0,
-      "ino": 5348024557935434,
-      "atimeMs": 1531259098872.7004,
-      "mtimeMs": 1531258560330.6238,
-      "ctimeMs": 1531258560330.6238,
-      "birthtimeMs": 1531234577266.932,
-      "atime": "2018-07-10T21:44:58.873Z",
-      "mtime": "2018-07-10T21:36:00.331Z",
-      "ctime": "2018-07-10T21:36:00.331Z",
-      "birthtime": "2018-07-10T14:56:17.267Z"
-    },
-    "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018/index.md absPath of file": {
-      "id": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018/index.md absPath of file",
+    "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018/index.md absPath of file": {
+      "id": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018/index.md absPath of file",
       "children": [
-        "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018/index.md absPath of file >>> MarkdownRemark"
+        "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018/index.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "922f98040215a78a444bb16b71e879bf",
+        "contentDigest": "dc6e0fcebb25882765a4743ebc7da5ea",
         "mediaType": "text/markdown",
         "type": "File",
-        "description": "File \"src\\pages\\07-10-2018\\index.md\"",
+        "description": "File \"src\\posts\\07-10-2018\\index.md\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "pages",
-      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018/index.md",
+      "sourceInstanceName": "posts",
+      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018/index.md",
       "relativePath": "07-10-2018/index.md",
       "extension": "md",
-      "size": 94,
-      "prettySize": "94 B",
-      "modifiedTime": "2018-07-10T17:12:25.022Z",
-      "accessTime": "2018-07-10T21:44:54.414Z",
-      "changeTime": "2018-07-10T17:12:25.022Z",
-      "birthTime": "2018-07-10T16:41:10.125Z",
+      "size": 139,
+      "prettySize": "139 B",
+      "modifiedTime": "2018-07-11T18:48:06.945Z",
+      "accessTime": "2018-07-11T18:48:06.945Z",
+      "changeTime": "2018-07-11T18:48:06.945Z",
+      "birthTime": "2018-07-11T18:48:06.942Z",
       "root": "C:/",
-      "dir": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018",
+      "dir": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
@@ -1107,41 +1006,41 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 5629499534646068,
-      "atimeMs": 1531259094413.5842,
-      "mtimeMs": 1531242745022.0198,
-      "ctimeMs": 1531242745022.0198,
-      "birthtimeMs": 1531240870124.6382,
-      "atime": "2018-07-10T21:44:54.414Z",
-      "mtime": "2018-07-10T17:12:25.022Z",
-      "ctime": "2018-07-10T17:12:25.022Z",
-      "birthtime": "2018-07-10T16:41:10.125Z"
+      "ino": 1688849860825371,
+      "atimeMs": 1531334886944.6018,
+      "mtimeMs": 1531334886944.6018,
+      "ctimeMs": 1531334886944.6018,
+      "birthtimeMs": 1531334886941.594,
+      "atime": "2018-07-11T18:48:06.945Z",
+      "mtime": "2018-07-11T18:48:06.945Z",
+      "ctime": "2018-07-11T18:48:06.945Z",
+      "birthtime": "2018-07-11T18:48:06.942Z"
     },
-    "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019/index.md absPath of file": {
-      "id": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019/index.md absPath of file",
+    "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019/index.md absPath of file": {
+      "id": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019/index.md absPath of file",
       "children": [
-        "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019/index.md absPath of file >>> MarkdownRemark"
+        "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019/index.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6f7f0702b81f3141fb46f0c0364b8a65",
+        "contentDigest": "b537c62e97b4d9bc681c6a07e15cd752",
         "mediaType": "text/markdown",
         "type": "File",
-        "description": "File \"src\\pages\\07-11-2019\\index.md\"",
+        "description": "File \"src\\posts\\07-11-2019\\index.md\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "pages",
-      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019/index.md",
+      "sourceInstanceName": "posts",
+      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019/index.md",
       "relativePath": "07-11-2019/index.md",
       "extension": "md",
-      "size": 93,
-      "prettySize": "93 B",
-      "modifiedTime": "2018-07-10T17:54:32.545Z",
-      "accessTime": "2018-07-10T21:44:54.415Z",
-      "changeTime": "2018-07-10T17:54:32.545Z",
-      "birthTime": "2018-07-10T17:53:58.636Z",
+      "size": 138,
+      "prettySize": "138 B",
+      "modifiedTime": "2018-07-11T18:48:14.038Z",
+      "accessTime": "2018-07-11T18:48:14.038Z",
+      "changeTime": "2018-07-11T18:48:14.038Z",
+      "birthTime": "2018-07-11T18:48:14.035Z",
       "root": "C:/",
-      "dir": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019",
+      "dir": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
@@ -1152,55 +1051,168 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 1407374884142716,
-      "atimeMs": 1531259094414.587,
-      "mtimeMs": 1531245272545.396,
-      "ctimeMs": 1531245272545.396,
-      "birthtimeMs": 1531245238636.0576,
-      "atime": "2018-07-10T21:44:54.415Z",
-      "mtime": "2018-07-10T17:54:32.545Z",
-      "ctime": "2018-07-10T17:54:32.545Z",
-      "birthtime": "2018-07-10T17:53:58.636Z"
+      "ino": 1688849860825361,
+      "atimeMs": 1531334894037.641,
+      "mtimeMs": 1531334894037.641,
+      "ctimeMs": 1531334894037.641,
+      "birthtimeMs": 1531334894035.1345,
+      "atime": "2018-07-11T18:48:14.038Z",
+      "mtime": "2018-07-11T18:48:14.038Z",
+      "ctime": "2018-07-11T18:48:14.038Z",
+      "birthtime": "2018-07-11T18:48:14.035Z"
     },
-    "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018/index.md absPath of file >>> MarkdownRemark": {
-      "id": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018/index.md absPath of file >>> MarkdownRemark",
+    "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018/index.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018/index.md absPath of file",
+      "parent": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018/index.md absPath of file",
       "internal": {
-        "content": "---\r\npath: '/first-post'\r\ntitle: 'First Blog Post'\r\n---\r\n\r\nHello! This is our first blog post.",
+        "content": "---\r\npath: '/first-post'\r\ndate: \"2018-07-10\"\r\ntitle: 'First Blog Post'\r\nauthor: \"Brad Traversy\"\r\n---\r\n\r\nHello! This is our first blog post.",
         "type": "MarkdownRemark",
-        "contentDigest": "e8f00feb2feae830e1081f5a270c2e8f",
+        "contentDigest": "af2cf0eb0e94691bc701d1add850e2eb",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "First Blog Post",
         "path": "/first-post",
-        "_PARENT": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018/index.md absPath of file",
-        "parent": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018/index.md absPath of file"
+        "date": "2018-07-10",
+        "author": "Brad Traversy",
+        "_PARENT": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018/index.md absPath of file",
+        "parent": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018/index.md absPath of file"
       },
       "excerpt": "",
       "rawMarkdownBody": "\r\nHello! This is our first blog post.",
-      "fileAbsolutePath": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018/index.md"
+      "fileAbsolutePath": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018/index.md"
     },
-    "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019/index.md absPath of file >>> MarkdownRemark": {
-      "id": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019/index.md absPath of file >>> MarkdownRemark",
+    "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019/index.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019/index.md absPath of file",
+      "parent": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019/index.md absPath of file",
       "internal": {
-        "content": "---\r\npath: '/2nd-post'\r\ntitle: 'Second Blog Post'\r\n---\r\n\r\nHello! This is our first blog post.",
+        "content": "---\r\npath: '/2nd-post'\r\ndate: \"2018-07-11\"\r\ntitle: 'Second Blog Post'\r\nauthor: \"Brad Traversy\"\r\n---\r\n\r\nHello! This is our first blog post.",
         "type": "MarkdownRemark",
-        "contentDigest": "cf0ea2e4b03dafb53e7407a861d881c6",
+        "contentDigest": "788e0192f146c6e54add378a0d271f03",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "Second Blog Post",
         "path": "/2nd-post",
-        "_PARENT": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019/index.md absPath of file",
-        "parent": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019/index.md absPath of file"
+        "date": "2018-07-11",
+        "author": "Brad Traversy",
+        "_PARENT": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019/index.md absPath of file",
+        "parent": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019/index.md absPath of file"
       },
       "excerpt": "",
       "rawMarkdownBody": "\r\nHello! This is our first blog post.",
-      "fileAbsolutePath": "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019/index.md"
+      "fileAbsolutePath": "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019/index.md"
+    },
+    "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019 absPath of file": {
+      "id": "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a355040af7f82814161ada8e6582fd34",
+        "type": "Directory",
+        "description": "Directory \"src\\posts\\02-5-2019\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019",
+      "relativePath": "02-5-2019",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-07-11T18:50:37.417Z",
+      "accessTime": "2018-07-11T19:12:08.069Z",
+      "changeTime": "2018-07-11T18:50:47.729Z",
+      "birthTime": "2018-07-11T18:50:37.400Z",
+      "root": "C:/",
+      "dir": "C:/Users/webdev2/Documents/travlplacs/src/posts",
+      "base": "02-5-2019",
+      "ext": "",
+      "name": "02-5-2019",
+      "relativeDirectory": "",
+      "dev": 1927141179,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1688849860789261,
+      "atimeMs": 1531336328069.0552,
+      "mtimeMs": 1531335037417.3794,
+      "ctimeMs": 1531335047728.624,
+      "birthtimeMs": 1531335037400.3337,
+      "atime": "2018-07-11T19:12:08.069Z",
+      "mtime": "2018-07-11T18:50:37.417Z",
+      "ctime": "2018-07-11T18:50:47.729Z",
+      "birthtime": "2018-07-11T18:50:37.400Z"
+    },
+    "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019/index.md absPath of file": {
+      "id": "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019/index.md absPath of file",
+      "children": [
+        "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b7259117d839d0aa5ff85ed15947c0f6",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src\\posts\\02-5-2019\\index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019/index.md",
+      "relativePath": "02-5-2019/index.md",
+      "extension": "md",
+      "size": 138,
+      "prettySize": "138 B",
+      "modifiedTime": "2018-07-11T18:51:41.482Z",
+      "accessTime": "2018-07-11T18:51:41.482Z",
+      "changeTime": "2018-07-11T18:51:41.482Z",
+      "birthTime": "2018-07-11T18:50:37.417Z",
+      "root": "C:/",
+      "dir": "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "02-5-2019",
+      "dev": 1927141179,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1407374884078828,
+      "atimeMs": 1531335101481.7463,
+      "mtimeMs": 1531335101481.7463,
+      "ctimeMs": 1531335101481.7463,
+      "birthtimeMs": 1531335037417.3794,
+      "atime": "2018-07-11T18:51:41.482Z",
+      "mtime": "2018-07-11T18:51:41.482Z",
+      "ctime": "2018-07-11T18:51:41.482Z",
+      "birthtime": "2018-07-11T18:50:37.417Z"
+    },
+    "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019/index.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019/index.md absPath of file",
+      "internal": {
+        "content": "---\r\npath: '/third-post'\r\ndate: \"2018-02-05\"\r\ntitle: 'Third Blog Post'\r\nauthor: \"Holden Grant\"\r\n---\r\n\r\nHello! This is our first blog post.",
+        "type": "MarkdownRemark",
+        "contentDigest": "110fd96638ecdd17f8772b6c9916e108",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Third Blog Post",
+        "path": "/third-post",
+        "date": "2018-02-05",
+        "author": "Holden Grant",
+        "_PARENT": "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019/index.md absPath of file",
+        "parent": "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nHello! This is our first blog post.",
+      "fileAbsolutePath": "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019/index.md"
     },
     "SitePage /first-post": {
       "layout": "index",
@@ -1218,7 +1230,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fb9f699f604aaf589f4b864addd8202a",
+        "contentDigest": "5dce8e429b72dba6f163406aefd3364d",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1239,7 +1251,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "14810ff0c309de870d0a20936edbf33a",
+        "contentDigest": "de303c43ec7f22b4257f4d09a141071d",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /third-post": {
+      "layout": "index",
+      "jsonName": "third-post.json",
+      "internalComponentName": "ComponentThirdPost",
+      "path": "/third-post",
+      "component": "C:/Users/webdev2/Documents/travlplacs/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Users/webdev2/Documents/travlplacs/src/templates/post.js",
+      "id": "SitePage /third-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "148eea2c4941ad3c3415147561929a95",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1260,7 +1293,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c914c6d43cf9341ee6720b3e049b734a",
+        "contentDigest": "ef7e94ced6dea93c35683226c2c926ce",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1281,7 +1314,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3ee5d1809d2fab8b526f9007b7e9ee3c",
+        "contentDigest": "20ab6b682166da7fef7650c0f3b189b8",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "layout": "index",
+      "jsonName": "blog.json",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "C:/Users/webdev2/Documents/travlplacs/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/webdev2/Documents/travlplacs/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0f87642a984f6d60e4bfb213b756acd4",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1302,7 +1356,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3a837804600a85120f43d3d64d94a67d",
+        "contentDigest": "dd5429db2bc462f1208f74d532ab0250",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1323,7 +1377,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ad03581d64b6f4138de5103e85af54a6",
+        "contentDigest": "24171914aa1713ce928a3d22bf9748ca",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1344,7 +1398,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "51d494a65db06e9fe9bbba73f438149d",
+        "contentDigest": "36cbdf86960d6efec27f65e9bbf9ce89",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -1352,18 +1406,21 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "37e2b130773fc8bfb22d17999d650c13"
+    "PLUGINS_HASH": "721dd1a957bc8ddb714f40f1d4f03b12"
   },
   "componentDataDependencies": {
     "nodes": {
-      "C:/Users/webdev2/Documents/travlplacs/src/pages/07-11-2019/index.md absPath of file >>> MarkdownRemark": [
+      "C:/Users/webdev2/Documents/travlplacs/src/posts/07-11-2019/index.md absPath of file >>> MarkdownRemark": [
         "/2nd-post"
       ],
-      "C:/Users/webdev2/Documents/travlplacs/src/pages/07-10-2018/index.md absPath of file >>> MarkdownRemark": [
+      "C:/Users/webdev2/Documents/travlplacs/src/posts/07-10-2018/index.md absPath of file >>> MarkdownRemark": [
         "/first-post"
       ],
       "Site": [
         "LAYOUT___index"
+      ],
+      "C:/Users/webdev2/Documents/travlplacs/src/posts/02-5-2019/index.md absPath of file >>> MarkdownRemark": [
+        "/third-post"
       ]
     },
     "connections": {
@@ -1371,7 +1428,7 @@
         "/dev-404-page/"
       ],
       "MarkdownRemark": [
-        "/"
+        "/blog/"
       ]
     }
   }

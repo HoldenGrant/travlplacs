@@ -4,8 +4,10 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "ajv-keywords": "^3.2.0",
     "gatsby": "^1.9.273",
     "gatsby-link": "^1.6.40",
+    "gatsby-plugin-catch-links": "^1.0.24",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "^1.0.26",
     "gatsby-source-filesystem": "^1.5.39",
@@ -24,7 +26,8 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
-    "prettier": "^1.12.0"
+    "prettier": "^1.12.0",
+    "webpack": "^1.4.0-beta6"
   },
   "repository": {
     "type": "git",

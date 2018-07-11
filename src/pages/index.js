@@ -9,31 +9,31 @@ const IndexPage = ({data}) => (
     <Link to="/about/">Go to page 2</Link><br/>
     <Link to="/service/">Go to page 3</Link>
     <h2>Index</h2>
-    {data.allMarkdownRemark.edges.map(post => (
+    {/* {data.allMarkdownRemark.edges.map(post => (
       <Link 
         key={post.node.id} 
-        onTouchMove={post.node.frontmatter.path}
+        to={post.node.frontmatter.path}
         >
         {post.node.frontmatter.title}
         </Link>
-    ))}
+    ))} */}
   </div>
 )
 
-export const postQuery = graphql`
-    query IndexQuery {
-        allMarkdownRemark(limit:10){
-            edges{
-                node{
-                  id
-                    frontmatter{
-                        title
-                        path
-                    }
-                }
-            }
-        }
-    }
-`
+// export const postQuery = graphql`
+//     query IndexQuery {
+//         allMarkdownRemark(limit:10){
+//             edges{
+//                 node{
+//                   id
+//                     frontmatter{
+//                         title
+//                         path
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// `
 
 export default IndexPage
