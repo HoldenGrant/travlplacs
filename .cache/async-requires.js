@@ -3,6 +3,7 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---src-templates-post-js": require("gatsby-module-loader?name=component---src-templates-post-js!C:\\Users\\webdev2\\Documents\\travlplacs\\src\\templates\\post.js"),
+  "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\dev-404-page.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!C:\\Users\\webdev2\\Documents\\travlplacs\\src\\pages\\404.js"),
   "component---src-pages-about-js": require("gatsby-module-loader?name=component---src-pages-about-js!C:\\Users\\webdev2\\Documents\\travlplacs\\src\\pages\\about.js"),
   "component---src-pages-blog-js": require("gatsby-module-loader?name=component---src-pages-blog-js!C:\\Users\\webdev2\\Documents\\travlplacs\\src\\pages\\blog.js"),
@@ -15,6 +16,7 @@ exports.json = {
   "first-post.json": require("gatsby-module-loader?name=path---first-post!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\first-post.json"),
   "2nd-post.json": require("gatsby-module-loader?name=path---2nd-post!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\2nd-post.json"),
   "third-post.json": require("gatsby-module-loader?name=path---third-post!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\third-post.json"),
+  "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\dev-404-page.json"),
   "404.json": require("gatsby-module-loader?name=path---404!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\404.json"),
   "about.json": require("gatsby-module-loader?name=path---about!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\about.json"),
   "blog.json": require("gatsby-module-loader?name=path---blog!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\blog.json"),

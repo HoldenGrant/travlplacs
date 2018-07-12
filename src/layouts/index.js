@@ -4,8 +4,10 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import Menu from '../components/menu'
-// import './index.css'
-import '../index.scss'
+import bootstrap from './bootstrap.min.css'
+console.log(bootstrap);
+import './index.css'
+//import '../index.scss'
 
 const Layout = ({ children, data }) => (
   <div>
