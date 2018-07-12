@@ -18,9 +18,9 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\layout-index.json"),
+  "third-post.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\third-post.json"),
   "first-post.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\first-post.json"),
   "2nd-post.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\2nd-post.json"),
-  "third-post.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\third-post.json"),
   "dev-404-page.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\dev-404-page.json"),
   "404.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\404.json"),
   "about.json": require("C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\about.json"),

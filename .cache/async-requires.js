@@ -13,9 +13,9 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\layout-index.json"),
+  "third-post.json": require("gatsby-module-loader?name=path---third-post!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\third-post.json"),
   "first-post.json": require("gatsby-module-loader?name=path---first-post!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\first-post.json"),
   "2nd-post.json": require("gatsby-module-loader?name=path---2nd-post!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\2nd-post.json"),
-  "third-post.json": require("gatsby-module-loader?name=path---third-post!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\third-post.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\dev-404-page.json"),
   "404.json": require("gatsby-module-loader?name=path---404!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\404.json"),
   "about.json": require("gatsby-module-loader?name=path---about!C:\\Users\\webdev2\\Documents\\travlplacs\\.cache\\json\\about.json"),

@@ -10,7 +10,7 @@ const IndexPage = ({data}) => (
     <h1 className='text-center'>Hi people</h1>
     <p >Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
-    <Link className='linkStyle' to="/about/">Go to page 2</Link><br/>
+    <Link className='btn btn-danger' to="/about/">Go to page 2</Link><br/>
     <Link to="/service/">Go to page 3</Link>
     <h2>Index</h2>
     {/* {data.allMarkdownRemark.edges.map(post => (

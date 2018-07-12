@@ -4,11 +4,11 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import Menu from '../components/menu'
-import bootstrap from './bootstrap.min.css'
-console.log(bootstrap);
+// import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 //import '../index.scss'
-
+// const bootstrap = <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" ></script> 
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
