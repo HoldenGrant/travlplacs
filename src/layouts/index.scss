@@ -1,19 +1,24 @@
+pageContent{
+  width:100%;
+}
+footer{
+  background-color: #202020;
+  color: whitesmoke;
+  p{
+    color: whitesmoke;
+  }
+}
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
-
+  
   body {
     margin: 0;
     padding: 0;
-    p{
-        color: red;
-    }
   }
-  .btn-custom{
-    color:red;
-  }
+  
   article,
   aside,
   details,

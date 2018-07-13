@@ -2,11 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const IndexPage = ({data}) => (
-  
-  <div>
-    <colLg12>
-  test
-  </colLg12>
+  <pageContent>
     <h1 className='text-center'>Hi people</h1>
     <p >Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
@@ -21,7 +17,7 @@ const IndexPage = ({data}) => (
         {post.node.frontmatter.title}
         </Link>
     ))} */}
-  </div>
+  </pageContent>
 )
 
 // export const postQuery = graphql`
