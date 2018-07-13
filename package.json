@@ -5,7 +5,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "ajv-keywords": "^3.2.0",
-    "bootstrap": "^4.1.2",
+    "bootstrap": "^4.0.0-beta.2",
     "gatsby": "^1.9.273",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-catch-links": "^1.0.24",
@@ -13,9 +13,12 @@
     "gatsby-plugin-sass": "^1.0.26",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
+    "hoek": "^5.0.3",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-popper": "^1.0.0",
+    "react-transition-group": "^2.4.0"
   },
   "keywords": [
     "gatsby"
@@ -31,7 +34,7 @@
   "devDependencies": {
     "extract-text-webpack-plugin": "^3.0.2",
     "prettier": "^1.12.0",
-    "webpack": "^1.4.0-beta6"
+    "webpack": "^1.15.0"
   },
   "repository": {
     "type": "git",
