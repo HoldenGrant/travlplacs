@@ -6,7 +6,7 @@ class Nav extends React.Component{
         return(
             <nav className='navbar navbar-expand-lg navbar-light bg-light'>
                 <div className='container'>
-                    <button className='navbar-toggler' type='button'>
+                    <button className='navbar-toggler ml-auto' type='button'>
                         <span className='navbar-toggler-icon'></span>
                     </button>
 
